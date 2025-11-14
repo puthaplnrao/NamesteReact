@@ -1,0 +1,25 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "Learning react",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puthaplnrao/NamesteReact.git"
+  },
+  "author": "Putha P L Narasimha Rao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puthaplnrao/NamesteReact/issues"
+  },
+  "homepage": "https://github.com/puthaplnrao/NamesteReact#readme",
+  "devDependencies": {
+    "parcel": "^2.16.1"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}

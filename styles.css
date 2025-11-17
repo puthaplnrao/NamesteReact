@@ -1,0 +1,50 @@
+/* Header Container */
+.header {
+  display: flex;
+  justify-content: space-between;   /* space between logo & nav */
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #eaeaea;
+}
+
+/* Logo Container */
+.logo-container .logo {
+  width: 70px;
+  height: auto;
+  cursor: pointer;
+}
+
+/* Navigation Items */
+.nav-items ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;             /* space between menu items */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-items li {
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+/* Hover effect */
+.nav-items li:hover {
+  color: #ff6600;
+}
+
+/* Responsive for mobile */
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-items ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
